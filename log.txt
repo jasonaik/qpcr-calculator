@@ -1,0 +1,16 @@
+2024-02-04 16:52:04,000 - Rotating Log - ERROR - Traceback (most recent call last):
+  File "C:\Users\jason\PycharmProjects\deltadeltactpersonal\logger.py", line 17, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jason\PycharmProjects\deltadeltactpersonal\interface.py", line 1044, in run_app
+    app = App()
+          ^^^^^
+  File "C:\Users\jason\PycharmProjects\deltadeltactpersonal\logger.py", line 17, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jason\PycharmProjects\deltadeltactpersonal\interface.py", line 71, in __init__
+    vertical_scrollbar.grid(row=0, column=1, sticky='ns')
+  File "C:\Users\jason\AppData\Local\Programs\Python\Python311\Lib\tkinter\__init__.py", line 2549, in grid_configure
+    self.tk.call(
+_tkinter.TclError: cannot use geometry manager grid inside .!frame which already has slaves managed by pack
+
